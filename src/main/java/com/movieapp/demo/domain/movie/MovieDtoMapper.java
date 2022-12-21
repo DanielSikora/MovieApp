@@ -1,7 +1,7 @@
-package domain.movie;
+package com.movieapp.demo.domain.movie;
 
 
-import domain.movie.dto.MovieDto;
+import com.movieapp.demo.domain.movie.dto.MovieDto;
 
 class MovieDtoMapper {
     static MovieDto map(Movie movie) {

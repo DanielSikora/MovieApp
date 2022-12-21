@@ -11,5 +11,4 @@
     <!-- TEST DATA -->
     <include file="../testdata/0001_genres.sql" relativeToChangelogFile="true" context="dev"/>
     <include file="../testdata/0002_movies.sql" relativeToChangelogFile="true" context="dev"/>
-
 </databaseChangeLog>

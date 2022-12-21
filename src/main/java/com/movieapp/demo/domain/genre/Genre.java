@@ -1,4 +1,4 @@
-package domain.genre;
+package com.movieapp.demo.domain.genre;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

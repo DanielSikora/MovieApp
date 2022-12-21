@@ -1,6 +1,6 @@
-package domain.movie;
+package com.movieapp.demo.domain.movie;
 
-import domain.genre.Genre;
+import com.movieapp.demo.domain.genre.Genre;
 
 import javax.persistence.*;
 

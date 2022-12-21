@@ -1,4 +1,4 @@
-package domain.movie.dto;
+package com.movieapp.demo.domain.movie.dto;
 
 public class MovieDto {
     private Long id;

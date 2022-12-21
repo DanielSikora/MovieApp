@@ -1,4 +1,4 @@
-package domain.movie;
+package com.movieapp.demo.domain.movie;
 
 import org.springframework.data.repository.CrudRepository;
 import java.util.List;
