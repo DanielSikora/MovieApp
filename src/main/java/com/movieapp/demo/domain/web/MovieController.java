@@ -19,6 +19,9 @@ public class MovieController {
         this.movieService = movieService;
     }
 
+    /**
+     * API method GET
+     */
     @GetMapping("/film/{id}")
     public String getMovie(@PathVariable long id, Model model) {
         MovieDto movie = movieService.findMovieById(id)
