@@ -4,6 +4,9 @@
       xmlns:th="https://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout}">
+<head>
+  <title th:if="${movie}" th:text="|${movie.title} - MovieApp|">Tytuł filmu - MovieClub</title>
+</head>
 <body>
 <div class="container">
   <main class="main-content" layout:fragment="content">
