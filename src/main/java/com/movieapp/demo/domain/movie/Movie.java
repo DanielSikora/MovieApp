@@ -26,6 +26,23 @@ public class Movie {
     private Genre genre;
     private boolean promoted;
 
+    private String poster;
+    /**
+     * get movie poster
+     * @return
+     */
+    public String getPoster() {
+        return poster;
+    }
+
+    /**
+     * set movie poster
+     * @param poster
+     */
+    public void setPoster(String poster) {
+        this.poster = poster;
+    }
+
     /**
      * get movie id
      * @return
