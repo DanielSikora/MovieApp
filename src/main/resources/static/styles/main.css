@@ -222,3 +222,20 @@ a {
     font-size: 2rem;
     margin: 16px 0;
 }
+.mc-form > input,
+.mc-form > textarea,
+.mc-form > button,
+.mc-form > select {
+    font-size: 1.2rem;
+    color: black;
+    padding: 8px;
+}
+
+.mc-form > input[type=checkbox] {
+    transform: scale(1.5);
+    margin-left: 5px;
+}
+
+.mc-form > input[type=file] {
+    color: white;
+}
