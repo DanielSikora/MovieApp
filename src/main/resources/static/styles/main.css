@@ -239,3 +239,14 @@ a {
 .mc-form > input[type=file] {
     color: white;
 }
+
+.list-border {
+    margin: auto;
+    list-style: none;
+}
+.list-border > li {
+    font-size: 1.2rem;
+    border: 1px #6d6d6d solid;
+    padding: 16px;
+    text-align: center;
+}
