@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/movieapp
+    username: root
+    password: admin
+  liquibase:
+    contexts: prod
+  web:
+    resources:
+      static-locations: classpath:/static/,file:C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
+app:
+  storage:
+    location: C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
