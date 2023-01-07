@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
+    color: #EEEEEE;
 }
 
 body {
@@ -11,14 +11,46 @@ body {
 
 a {
     text-decoration: none;
-    color: #ffc107;
+    font-weight: 400;
+    color: #00ADB5;
 }
+
+.link {
+    position: relative;
+    color: #00ADB5;
+    padding: 10px 20px;
+}
+
+.link,
+.link::before,
+.link::after {
+    transition: 0.3s;
+}
+
+.one::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: #00ADB5;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+}
+
+.one:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #424242;
+    background-color: #393E46;
 }
 
 .main-content {
@@ -28,7 +60,7 @@ a {
 
 .logo,
 #toggle-icon {
-    color: #ffc107;
+    color: #00ADB5;
 }
 
 .menu {
@@ -62,8 +94,9 @@ a {
 }
 
 .jumbotron {
-    background-image: url("../img/jumbotron.png");
-    background-position: center;
+    position: relative;
+    background-image: url("../img/hero-bg.jpg");
+    background-position: 42% 98%;
     background-repeat: no-repeat;
     padding: 2rem;
     text-align: center;
@@ -71,9 +104,23 @@ a {
 .jumbotron-header {
     font-size: 3rem;
     margin: 1rem 0;
+    z-index: 1;
+    color: #fff;
 }
 .jumbotron-description {
     font-size: 1.2rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .1);
+    z-index: -1;
 }
 
 .list-heading,
@@ -147,7 +194,7 @@ a {
     text-align: center;
 }
 .movie-rating-button {
-    background-color: #ffc107;
+    background-color: #00ADB5;
     border: 0;
     padding: 4px;
     font-size: 1.6rem;
@@ -237,7 +284,7 @@ a {
 }
 
 .mc-form > input[type=file] {
-    color: white;
+    color: #EEEEEE;
 }
 
 .list-border {
@@ -251,23 +298,21 @@ a {
     text-align: center;
 }
 
-/* gatunek */
 
-/*textarea domyślnie nie dziedziczy czcionki z body*/
 textarea {
     font-family: inherit;
 }
-/*etykiety i inputy jeden pod drugim z odstępami po bokach*/
+
 .mc-form {
     display: flex;
     flex-direction: column;
     margin: 0 32px;
 }
-/*odstępy między etykietami i inputami*/
+
 .mc-form > * {
     margin-top: 8px;
 }
-/*większe inputy z paddingami*/
+
 .mc-form > input,
 .mc-form > textarea,
 .mc-form > button {
@@ -277,13 +322,13 @@ textarea {
 }
 .mc-form > button {
     margin-top: 16px;
-    background-color: white;
-    color: #ffc107;
+    background-color: #EEEEEE;
+    color: #00ADB5;
     border: none;
 }
 
 .notification-bar {
     text-align: center;
-    background-color: #ffc107;
+    background-color: #00ADB5;
     padding: 8px 0;
 }
