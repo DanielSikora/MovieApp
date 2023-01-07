@@ -21,7 +21,7 @@ public class HomeController {
     public String home(Model model) {
         List<MovieDto> promotedMovies = movieService.findAllPromotedMovies();
         model.addAttribute("heading", "Promowane filmy");
-        model.addAttribute("description", "Filmy polecane przez nasz zespół");
+        model.addAttribute("description", "Filmy polecane przez nasz zespół projektowy: Ksiazek, Sikora, Ciochon.");
         model.addAttribute("movies", promotedMovies);
         return "movie-listing";
     }
