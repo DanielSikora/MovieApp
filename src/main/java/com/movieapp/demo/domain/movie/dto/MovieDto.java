@@ -1,7 +1,17 @@
 package com.movieapp.demo.domain.movie.dto;
 
 /**
+ * <h1>MovieDto</h1>
+ * The MovieDto program implements an application that
+ * <p>
+ * <b>Note:</b> Giving proper comments in your program makes it more
+ * user friendly and it is assumed as a high quality code.
  *
+ * @author  Krzysztof Ksiazek
+ * @author  Daniel Sikora
+ * @author  Adrian Ciochon
+ * @version 1.0
+ * @since   2022-11-04
  */
 public class MovieDto {
     private Long id;

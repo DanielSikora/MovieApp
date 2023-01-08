@@ -2,6 +2,9 @@ package com.movieapp.demo.domain.movie.dto;
 
 import org.springframework.web.multipart.MultipartFile;
 
+/**
+ *
+ */
 public class MovieSaveDto {
     private String title;
     private String originalTitle;
