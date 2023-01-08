@@ -2,7 +2,7 @@ package com.movieapp.demo.domain.movie.dto;
 
 /**
  * <h1>MovieDto</h1>
- * The MovieDto program implements an application that
+ * The MovieDto program implements an application that represents movie
  * <p>
  * <b>Note:</b> Giving proper comments in your program makes it more
  * user friendly and it is assumed as a high quality code.
