@@ -298,23 +298,21 @@ a {
     text-align: center;
 }
 
-/* gatunek */
 
-/*textarea domyślnie nie dziedziczy czcionki z body*/
 textarea {
     font-family: inherit;
 }
-/*etykiety i inputy jeden pod drugim z odstępami po bokach*/
+
 .mc-form {
     display: flex;
     flex-direction: column;
     margin: 0 32px;
 }
-/*odstępy między etykietami i inputami*/
+
 .mc-form > * {
     margin-top: 8px;
 }
-/*większe inputy z paddingami*/
+
 .mc-form > input,
 .mc-form > textarea,
 .mc-form > button {
