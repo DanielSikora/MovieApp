@@ -2,7 +2,7 @@ package com.movieapp.demo.domain.genre.dto;
 
 /**
  * <h1>GenreDto</h1>
- * The MovieDto program implements an application that represents genre
+ * The GenreDto program implements an application that represents genre
  * <p>
  * <b>Note:</b> Giving proper comments in your program makes it more
  * user friendly and it is assumed as a high quality code.
@@ -35,26 +35,50 @@ public class GenreDto {
      */
     public GenreDto() {}
 
+    /**
+     * getId method
+     * @return  Long
+     */
     public Long getId() {
         return id;
     }
 
+    /**
+     * setId method
+     * @param id id
+     */
     public void setId(Long id) {
         this.id = id;
     }
 
+    /**
+     * getName method
+     * @return String
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * setName method
+     * @param name name
+     */
     public void setName(String name) {
         this.name = name;
     }
 
+    /**
+     * getDescription method
+     * @return String
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * setDescription method
+     * @param description description
+     */
     public void setDescription(String description) {
         this.description = description;
     }
