@@ -13,8 +13,8 @@ After download app you must change path to uploads in application-prod.yml.
 ```
   web:
     resources:
-      static-locations: classpath:/static/,file:C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
+      static-locations: classpath:/static/,file:[Your path]\MovieApp\uploads
   app:
     storage:
-     !location: C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
+     !location: [Your path]\MovieApp\uploads
 ```
