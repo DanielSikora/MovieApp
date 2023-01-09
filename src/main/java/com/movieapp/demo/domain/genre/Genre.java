@@ -6,7 +6,17 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * Entity class of genre table
+ * <h1>Genre</h1>
+ * The Genre program implements an application that represents entity genre
+ * <p>
+ * <b>Note:</b> Giving proper comments in your program makes it more
+ * user friendly and it is assumed as a high quality code.
+ *
+ * @author  Krzysztof Ksiazek
+ * @author  Daniel Sikora
+ * @author  Adrian Ciochon
+ * @version 1.0
+ * @since   2022-11-04
  */
 @Entity
 public class Genre {
@@ -16,10 +26,18 @@ public class Genre {
     private String name;
     private String description;
 
+    /**
+     * getDescription method
+     * @return String
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * setDescription method
+     * @param description description
+     */
     public void setDescription(String description) {
         this.description = description;
     }

@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @SpringBootConfiguration
 /**
+ * <h1>DemoApplication</h1>
  * The DemoApplication program implements starting main application
- *
  * @author  Krzysztof Ksiazek
  * @author  Daniel Sikora
  * @author  Adrian Ciochon
