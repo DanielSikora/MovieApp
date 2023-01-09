@@ -8,6 +8,6 @@ spring:
   web:
     resources:
       static-locations: classpath:/static/,file:C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
-app:
-  storage:
-    location: C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
+  app:
+    storage:
+      location: C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
