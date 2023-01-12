@@ -7,14 +7,8 @@ spring:
     contexts: prod
   web:
     resources:
-<<<<<<< HEAD
+
       static-locations: classpath:/static/,file:C:\Users\krzys\Desktop\Academic Projects\Object and Component Technologies\Sikora_Ksiazek_Ciochon\MovieApp\uploads
 app:
   storage:
     location: C:\Users\krzys\Desktop\Academic Projects\Object and Component Technologies\Sikora_Ksiazek_Ciochon\MovieApp\uploads
-=======
-      static-locations: classpath:/static/,file:C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
-  app:
-    storage:
-      location: C:\Users\Daniel\Documents\TOiK\MovieApp\uploads
->>>>>>> 6f0ec8df23d9a26aa7ba5a62879a493dbdf122c2
