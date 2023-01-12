@@ -278,6 +278,10 @@ a {
     padding: 8px;
 }
 
+option {
+    background-color: #6d6d6d;
+}
+
 .mc-form > input[type=checkbox] {
     transform: scale(1.5);
     margin-left: 5px;
